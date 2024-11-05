@@ -1,0 +1,57 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+h1, h3 {
+    color: #333;
+}
+input[type="text"],
+input[type="date"],
+input[type="submit"] {
+    font-size: 1em;
+    padding: 10px;
+    margin: 10px 0;
+    width: calc(100% - 22px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #8650e3;
+    color: white;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #7136e0;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: left;
+}
+th, td {
+    padding: 10px;
+}
+.container {
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.editAndDelete {
+    float: right;
+    margin-right: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    margin: 5px 0;
+}

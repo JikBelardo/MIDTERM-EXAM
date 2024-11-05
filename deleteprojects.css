@@ -1,0 +1,50 @@
+
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    margin-top: 0;
+    color: #d9534f; /* Red color for the main title */
+}
+
+.container {
+    background-color: #ffffff; /* White background for the project details */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc; /* Border for the container */
+    height: auto; /* Adjust height automatically based on content */
+    max-width: 600px; /* Limit the width of the container */
+    margin: auto; /* Center the container */
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+.deleteBtn {
+    margin-top: 20px;
+    float: right; /* Align the button to the right */
+}
+
+input[type="submit"] {
+    font-size: 1.5em;
+    height: 50px;
+    width: 100%;
+    max-width: 150px; /* Limit button width */
+    padding: 10px;
+    background-color: #d9534f; /* Red background for delete button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"]:hover {
+    background-color: #c9302c; /* Darker red on hover */
+}
